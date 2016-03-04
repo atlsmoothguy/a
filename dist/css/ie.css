@@ -1,0 +1,14 @@
+/*------------------------------------------------------------------
+[IE Styles]
+
+Styles for older IE versions (previous to IE9).
+-------------------------------------------------------------------*/
+
+img.alignright {
+	margin-right: 0;
+}
+
+img.alignleft {
+	margin-left: 0;
+}
+
