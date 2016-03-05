@@ -19,8 +19,8 @@ items.push(item);
 
 
 //ESCENA 1//
-	
-//Parallax Element 	
+
+//Parallax Element
 var item = {};
 item.name = "#escena1-parallax1";
 item.stackOrder = 250;
@@ -63,7 +63,7 @@ $.QueryString = (function(a) {
         }
         return b;
     })(window.location.search.substr(1).split('&'))
-    
+
 })(jQuery);
 
 if( $.isNumeric($.QueryString["page"])){
@@ -82,9 +82,9 @@ jQuery(document).ready(function($) {
 	$(".nano").nanoScroller({ alwaysVisible: true });
 	this.ANIM = new HORILLAX.ANIM();
 	HORILLAX.ANIM.instance.move(pagemove);
-	
+
 	function appNavigateWithTo (with_element, to_section) {
- $("." + with_element).on('click touchstart', function(e){
+ $("." + with_element).on('click', function(e){
    HORILLAX.ANIM.instance.move(parseInt(to_section) - 1);
    return false;
  })
@@ -97,7 +97,7 @@ appNavigateWithTo('app_go-to-4', 4);
 appNavigateWithTo('app_go-to-6', 6);
 appNavigateWithTo('app_go-to-7', 7);
 
-	
+
 });
 
 

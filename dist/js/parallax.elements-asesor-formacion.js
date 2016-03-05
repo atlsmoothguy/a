@@ -19,11 +19,11 @@ items.push(item);
 
 
 //ESCENA 1//
-	
 
 
 
-//Parallax Element 	
+
+//Parallax Element
 var item = {};
 item.name = "#escena1-parallax3";
 item.stackOrder = 300;
@@ -38,7 +38,7 @@ item.mouseSpeed = 5;
 items.push(item);
 
 
-//Parallax Element 	
+//Parallax Element
 var item = {};
 item.name = "#escena2-parallax4";
 item.stackOrder = 200;
@@ -56,8 +56,8 @@ items.push(item);
 
 
 //ESCENA 2//
-	
-//Parallax Element 	
+
+//Parallax Element
 var item = {};
 item.name = "#escena2-parallax1";
 item.stackOrder = 150;
@@ -72,7 +72,7 @@ item.mouseSpeed = 20;
 items.push(item);
 
 
-//Parallax Element 	
+//Parallax Element
 var item = {};
 item.name = "#escena2-parallax2";
 item.stackOrder = 200;
@@ -89,8 +89,8 @@ items.push(item);
 
 
 //ESCENA 3//
-	
-//Parallax Element 	
+
+//Parallax Element
 var item = {};
 item.name = "#escena3-parallax1";
 item.stackOrder = 400;
@@ -105,7 +105,7 @@ item.mouseSpeed = 15;
 items.push(item);
 
 
-//Parallax Element 	
+//Parallax Element
 var item = {};
 item.name = "#escena3-parallax2";
 item.stackOrder = 100;
@@ -119,7 +119,7 @@ item.bPos = 30;
 item.mouseSpeed = 5;
 items.push(item);
 
-//Parallax Element 	
+//Parallax Element
 var item = {};
 item.name = "#escena3-parallax3";
 item.stackOrder = 100;
@@ -134,7 +134,7 @@ item.mouseSpeed = 10;
 items.push(item);
 
 
-//Parallax Element 	
+//Parallax Element
 var item = {};
 item.name = "#escena3-parallax4";
 item.stackOrder = 500;
@@ -150,8 +150,8 @@ items.push(item);
 
 
 //ESCENA 4//
-	
-//Parallax Element 	
+
+//Parallax Element
 var item = {};
 item.name = "#escena4-parallax1";
 item.stackOrder = 300;
@@ -166,7 +166,7 @@ item.mouseSpeed = 15;
 items.push(item);
 
 
-//Parallax Element 	
+//Parallax Element
 var item = {};
 item.name = "#escena4-parallax2";
 item.stackOrder = 100;
@@ -182,8 +182,8 @@ items.push(item);
 
 
 //ESCENA 5//
-	
-//Parallax Element 	
+
+//Parallax Element
 var item = {};
 item.name = "#escena5-parallax1";
 item.stackOrder = 150;
@@ -198,7 +198,7 @@ item.mouseSpeed = 10;
 items.push(item);
 
 
-//Parallax Element 	
+//Parallax Element
 var item = {};
 item.name = "#escena5-parallax2";
 item.stackOrder = 300;
@@ -212,7 +212,7 @@ item.bPos = 0;
 item.mouseSpeed = 6;
 items.push(item);
 
-//Parallax Element 	
+//Parallax Element
 var item = {};
 item.name = "#escena5-parallax3";
 item.stackOrder = 150;
@@ -230,8 +230,8 @@ items.push(item);
 
 
 //ESCENA 6//
-	
-//Parallax Element 	
+
+//Parallax Element
 var item = {};
 item.name = "#escena6-parallax1";
 item.stackOrder = 300;
@@ -246,7 +246,7 @@ item.mouseSpeed = 15;
 items.push(item);
 
 
-//Parallax Element 	
+//Parallax Element
 var item = {};
 item.name = "#escena6-parallax2";
 item.stackOrder = 300;
@@ -262,8 +262,8 @@ items.push(item);
 
 
 //ESCENA 7//
-	
-//Parallax Element 	
+
+//Parallax Element
 var item = {};
 item.name = "#escena7-parallax1";
 item.stackOrder = 300;
@@ -278,7 +278,7 @@ item.mouseSpeed = 15;
 items.push(item);
 
 
-//Parallax Element 	
+//Parallax Element
 var item = {};
 item.name = "#escena7-parallax2";
 item.stackOrder = 300;
@@ -292,7 +292,7 @@ item.bPos = -50;
 item.mouseSpeed = 30;
 items.push(item);
 
-//Parallax Element 	
+//Parallax Element
 var item = {};
 item.name = "#escena7-parallax3";
 item.stackOrder = 150;
@@ -405,7 +405,7 @@ $.QueryString = (function(a) {
         }
         return b;
     })(window.location.search.substr(1).split('&'))
-    
+
 })(jQuery);
 
 if( $.isNumeric($.QueryString["page"])){
@@ -424,9 +424,9 @@ jQuery(document).ready(function($) {
 	$(".nano").nanoScroller({ alwaysVisible: true });
 	this.ANIM = new HORILLAX.ANIM();
 	HORILLAX.ANIM.instance.move(pagemove);
-	
+
 	function appNavigateWithTo (with_element, to_section) {
- $("." + with_element).on('click touchstart', function(e){
+ $("." + with_element).on('click', function(e){
    HORILLAX.ANIM.instance.move(parseInt(to_section) - 1);
    return false;
  })
@@ -439,7 +439,7 @@ appNavigateWithTo('app_go-to-4', 4);
 appNavigateWithTo('app_go-to-6', 6);
 appNavigateWithTo('app_go-to-7', 7);
 
-	
+
 });
 
 

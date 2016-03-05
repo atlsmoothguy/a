@@ -1370,3 +1370,38 @@ blockquote.right {
 .margin-content-intro {
   overflow: scroll;
   height: 60vh; }
+
+@media only screen and (min-width: 800px) {
+  .col-sm-3 {
+    width: 20%; } }
+
+@media only screen and (max-width: 1023px) {
+  li.menu-item {
+    background: #fff; } }
+
+@media only screen and (min-width: 800px) and (max-width: 1023px) {
+  .navbar-header {
+    float: none; }
+  .navbar-toggle {
+    display: block; }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+  .navbar-collapse.collapse {
+    display: none !important; }
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px; }
+  .navbar-nav > li {
+    float: none; }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .navbar-text {
+    float: none;
+    margin: 15px 0; }
+  /* since 3.1.0 */
+  .navbar-collapse.collapse.in {
+    display: block !important; }
+  .collapsing {
+    overflow: hidden !important; } }

@@ -46,7 +46,7 @@ Makes the theme responsive
 	.blogpost{
 		width:380px !important;
 		}
-	
+
 	.parallax-portfolio .slider li img, .parallax-portfolio #pager{
 		width:350px;
 		}
@@ -71,7 +71,7 @@ Makes the theme responsive
 		font-size: 18px;
 		}
 
-	.post_format:before, 
+	.post_format:before,
 	.post_format{
 		height:35px;
 		width:35px;
@@ -93,9 +93,9 @@ Makes the theme responsive
 		}
 
 	/* Comment Form */
-	#commentform #author, 
-	#commentform #email, 
-	#commentform #url, 
+	#commentform #author,
+	#commentform #email,
+	#commentform #url,
 	#commentform textarea {
 		width:70%;
 		}
@@ -126,7 +126,7 @@ Makes the theme responsive
 		width:350px !important;
 		}
 
-	.small-title .blog-post-title a, 
+	.small-title .blog-post-title a,
 	.small-title .blog-post-title {
 		font-size: 16px;
 		padding-left: 0;
@@ -142,19 +142,19 @@ Makes the theme responsive
 		padding-left: 0;
 		}
 
-	.blogpost .post_format:before, 
+	.blogpost .post_format:before,
 	.blogpost .post_format{
 		display: none;
 		}
-	
+
 	.parallax-portfolio .slider li img, .parallax-portfolio #pager{
 		width:300px;
 		}
-	
+
 	.content-box .parallax-portfolio .btn-group{
 		top:12px;
-		}	
-	
+		}
+
 	.parallax-page{
 		width:100%;
 		max-width: 620px;
@@ -191,9 +191,9 @@ Makes the theme responsive
 
 	/* Comment Form */
 
-	#commentform #author, 
-	#commentform #email, 
-	#commentform #url, 
+	#commentform #author,
+	#commentform #email,
+	#commentform #url,
 	#commentform textarea {
 		width:80%;
 		}
@@ -207,16 +207,16 @@ Makes the theme responsive
 		display: table;
 		margin-bottom: 15px;
 		}
-	
+
 	.parallax-page .page-title h1, .parallax-page .page-title h4{
 		display: table-cell;
-		vertical-align: middle;	
-		} 
+		vertical-align: middle;
+		}
 
 	.parallax-page .page-title h4{
 		padding-left: 10px;
 		}
-	
+
 	.parallax-page .bx-viewport,
 	.parallax-page .bx-viewport li,
 	.parallax-page .bx-viewport .blogpost,
@@ -224,23 +224,23 @@ Makes the theme responsive
 	.parallax-page  .page-contents {
 		height: 480px !important;
 		}
-	
+
 	.parallax-page .blogpost .entry-header{
 		padding: 10px;
 		}
-		
+
 	.parallax-page .content-box .blogpost .entry-header{
 		padding: 10px 10px 10px 0;
 		}
-	
+
 	.parallax-page .post_format{
 		left: 10px;
 		top:10px;
 		}
-		
+
 	.parallax-page .content-box .post_format{
 		left: 0;
-		}		
+		}
 }
 
 /* Landscape phone to portrait tablet */
@@ -251,22 +251,22 @@ Makes the theme responsive
 	.parallax-page .bx-viewport .blogpost,
 	.parallax-page .bx-viewport .member,
 	.parallax-page  .page-contents {
-		height: 268px !important;
+		min-height: 268px !important;
 		}
-		
+
 	#portfolio .col-xs-6{
 		width:49% !important;
-		}	
-	
-	
+		}
+
+
 	.parallax-page .page-title h1{
 		font-size: 28px;
 		}
 
 	.content-box .parallax-portfolio .btn-group{
 		top:12px;
-		}	
-		
+		}
+
 	.parallax-page .bx-viewport .member{
 		width:170px !important;
 		}
@@ -283,7 +283,7 @@ Makes the theme responsive
 		font-size: 16px;
 		}
 
-	.parallax-portfolio .slider li .attachent-container, 
+	.parallax-portfolio .slider li .attachent-container,
 	.parallax-portfolio #pager{
 		width:45% !important;
 		display: block;
@@ -304,14 +304,14 @@ Makes the theme responsive
 		width:200px;
 		bottom: 10px;
 		}
-	
+
 	.parallax-portfolio .contents{
 		padding-top: 20px !important;
 		}
-	
+
 	.parallax-portfolio .bx-controls-direction{
 		width:200px;
-		}		
+		}
 
 	.parallax-portfolio #pager img{
 		width:33px;
@@ -321,7 +321,7 @@ Makes the theme responsive
 		width:330px !important;
 		}
 
-	.small-title .blog-post-title a, 
+	.small-title .blog-post-title a,
 	.small-title .blog-post-title{
 		font-size: 15px;
 		line-height: 20px;
@@ -338,12 +338,12 @@ Makes the theme responsive
 	.parallax-portfolio #pager a{
 		padding: 2px;
 		}
-		
-		
+
+
 	.parallax-page .link{
 		padding: 10px 15px !important;
 		font-size: 16px;
-		} 	
+		}
 
 	.parallax-portfolio .contents{
 		padding: 25px 35px 25px 35px;
@@ -379,9 +379,9 @@ Makes the theme responsive
 		}
 
 	/* Comment Form */
-	#commentform #author, 
-	#commentform #email, 
-	#commentform #url, 
+	#commentform #author,
+	#commentform #email,
+	#commentform #url,
 	#commentform textarea {
 		width:90%;
 		}
@@ -404,10 +404,10 @@ Makes the theme responsive
 @media (max-width:480px), (max-height:480px)  {
 
 	.template-parallax .site-footer .footer-info{
-		padding:10px 0;	
+		padding:10px 0;
 		text-align: center;
 	}
-			
+
 	.parallax-portfolio .contents{
 		padding-top: 0 !important;
 		}
@@ -419,11 +419,11 @@ Makes the theme responsive
 	#colophon{
 		height: 45px;
 		}
-		
+
 	.col-sm-4 {
         width: 100%;
     	}
-    	
+
     #portfolio 	.col-sm-4{
    	 width: 100% !important;
     	}
@@ -432,8 +432,8 @@ Makes the theme responsive
 	.parallaxItem{
 		visibility: hidden;
 		}
-	
-	.blog-post-title, 
+
+	.blog-post-title,
 	.blog-post-title a{
 		font-size: 21px !important;
 		}
@@ -477,23 +477,22 @@ Makes the theme responsive
 	max-width: 95%;
 	top: 110px !important;
 		}
-		
-		
+
+
 	#inicio.parallax-page{
 	max-width: 95%;
-	top: 10px !important;
-		}	
+	}
 
 .sombra-card{ margin-bottom:10px;}
 
 
-	.parallax-page .member, 
+	.parallax-page .member,
 	.parallax-page .team,
-	.blogpost, .blogpage, 
-	.parallax-portfolio .slider,  
-	.parallax-portfolio .slider li, 
-	.parallax-portfolio .slider a img,.parallax-portfolio-2 .slider,  
-	.parallax-portfolio-2 .slider li, 
+	.blogpost, .blogpage,
+	.parallax-portfolio .slider,
+	.parallax-portfolio .slider li,
+	.parallax-portfolio .slider a img,.parallax-portfolio-2 .slider,
+	.parallax-portfolio-2 .slider li,
 	.parallax-portfolio-2 .slider a img{
 		width:100% !important;
 		max-width: 480px !important;
@@ -512,26 +511,26 @@ Makes the theme responsive
  		overflow: hidden;
  		margin: 0 0 20px 0;
  		}
- 
+
  	.parallax-portfolio .slider .contents,.parallax-portfolio-2 .slider .contents{
  		display: block;
  		clear: both;
  		float: none;
  		padding-top: 40px;
- 		} 
+ 		}
 
 	.blogpost, .blogpage{
 		max-width: 100%;
 		}
 
 	.blogpost .blog-post-title,
-	.blogpost .entry-header, 
+	.blogpost .entry-header,
 	.blogpost{
 		min-height: 0 !important;
 		}
 
-	.parallax-page .team, 
-	.blogpost, 
+	.parallax-page .team,
+	.blogpost,
 	.blogpage{
 		transform:none !important;
 		width:100% !important;
@@ -541,8 +540,8 @@ Makes the theme responsive
 		margin-bottom: 0;
 		}
 
-	.parallax-about.nano-content, 
-	.parallax-blog.nano-content, 
+	.parallax-about.nano-content,
+	.parallax-blog.nano-content,
 	.parallax-portfolio.nano-content,.parallax-portfolio-2.nano-content{
 		padding: 0 15px 0 0;
 		}
@@ -555,8 +554,8 @@ Makes the theme responsive
 		width:100%;
 		}
 
-	.parallax-portfolio li, 
-	.parallax-portfolio ul,.parallax-portfolio-2 li, 
+	.parallax-portfolio li,
+	.parallax-portfolio ul,.parallax-portfolio-2 li,
 	.parallax-portfolio-2 ul{
 		list-style: none;
 		}
@@ -566,17 +565,17 @@ Makes the theme responsive
 		width:100%;
 		}
 
-	.post_format:before, 
+	.post_format:before,
 	.post_format{
 		display: none;
 		}
 
-	.blog-post-title, 
+	.blog-post-title,
 	.entry-header .meta-details{
 		padding-left: 0;
 		}
 
-	.small-title .blog-post-title a, 
+	.small-title .blog-post-title a,
 	.small-title .blog-post-title{
 		font-size: 16px;
 		line-height: 20px;
@@ -587,12 +586,12 @@ Makes the theme responsive
 		display: block;
 		}
 
-	.entry-header, 
+	.entry-header,
 	.entry-content{
 		padding: 15px 20px;
 		}
 
-	.entry-header .meta-details a, 
+	.entry-header .meta-details a,
 	.cat-tag a{
 		font-size: 10px;
 		}
@@ -614,7 +613,7 @@ Makes the theme responsive
 		height: auto;
 		}
 
-	.parallax-portfolio .slider li img, 
+	.parallax-portfolio .slider li img,
 	.parallax-portfolio #pager{
 		width:100%;
 		}
@@ -626,8 +625,8 @@ Makes the theme responsive
 
 	/* Comment Form */
 	#commentform #author,
-	#commentform #email, 
-	#commentform #url, 
+	#commentform #email,
+	#commentform #url,
 	#commentform textarea {
 		width:99%;
 		}
@@ -650,7 +649,7 @@ Makes the theme responsive
 		margin-right: 10px;
 		}
 
-	.team-pic:hover, 
+	.team-pic:hover,
 	.team-desc:hover,
 	.team-desc{
 		opacity: 1 !important;
@@ -659,18 +658,15 @@ Makes the theme responsive
 }
 
 
-@media (max-width:1100px)  
+@media (max-width:1100px)
 {
 	#logo-ciudad-sura{ display:none;}
-	
+
 	}
-	
-@media (max-width:990px)  
+
+@media (max-width:990px)
 {.navbar-nav{margin-top: 60px;}}
 
-
-@media (max-width:800px)  
-{li.menu-item { background-color:#fff;}}
 
 @media (min-width:1100px) {
 .logo-consurso-margin{margin-top:100px; }
@@ -685,4 +681,4 @@ Makes the theme responsive
 @media (min-width: 990px) and (max-width: 1224px) {
 
 #como-ganar img{ width:140px; height:auto;}
- 
+
